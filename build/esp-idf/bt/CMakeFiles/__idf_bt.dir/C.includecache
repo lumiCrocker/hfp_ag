@@ -216,6 +216,12 @@ osi/future.h
 osi/osi.h
 /home/parker/esp/esp-idf/components/bt/common/osi/osi/osi.h
 
+/home/parker/esp/esp-idf/components/bt/common/osi/hash_functions.c
+string.h
+-
+osi/hash_functions.h
+/home/parker/esp/esp-idf/components/bt/common/osi/osi/hash_functions.h
+
 /home/parker/esp/esp-idf/components/bt/common/osi/hash_map.c
 bt_common.h
 /home/parker/esp/esp-idf/components/bt/common/osi/bt_common.h
@@ -2366,6 +2372,8 @@ osi/list.h
 osi/allocator.h
 /home/parker/esp/esp-idf/components/bt/host/bluedroid/btc/core/osi/allocator.h
 
+/home/parker/esp/esp-idf/components/bt/host/bluedroid/btc/core/btc_sec.c
+
 /home/parker/esp/esp-idf/components/bt/host/bluedroid/btc/core/btc_sm.c
 common/bt_target.h
 /home/parker/esp/esp-idf/components/bt/host/bluedroid/btc/core/common/bt_target.h
@@ -3927,6 +3935,10 @@ common/bt_target.h
 /home/parker/esp/esp-idf/components/bt/host/bluedroid/external/sbc/plc/common/bt_target.h
 sbc_plc.h
 /home/parker/esp/esp-idf/components/bt/host/bluedroid/external/sbc/plc/sbc_plc.h
+
+/home/parker/esp/esp-idf/components/bt/host/bluedroid/hci/hci_audio.c
+hci/hci_audio.h
+/home/parker/esp/esp-idf/components/bt/host/bluedroid/hci/hci/hci_audio.h
 
 /home/parker/esp/esp-idf/components/bt/host/bluedroid/hci/hci_hal_h4.c
 string.h

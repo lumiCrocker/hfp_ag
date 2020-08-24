@@ -104,7 +104,7 @@ bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/t
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/src/bootloader-stamp/bootloader-update
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/src/bootloader-stamp/bootloader-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parker/esp/hfp_ag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'bootloader'"
-	cd /home/parker/esp/hfp_ag/build/bootloader && /usr/bin/cmake -DSDKCONFIG=/home/parker/esp/hfp_ag/sdkconfig -DIDF_PATH=/home/parker/esp/esp-idf -DIDF_TARGET=esp32 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/usr/bin/python -DEXTRA_COMPONENT_DIRS=/home/parker/esp/esp-idf/components/bootloader -DLEGACY_INCLUDE_COMMON_HEADERS= "-GUnix Makefiles" /home/parker/esp/esp-idf/components/bootloader/subproject
+	cd /home/parker/esp/hfp_ag/build/bootloader && /usr/bin/cmake -DSDKCONFIG=/home/parker/esp/hfp_ag/sdkconfig -DIDF_PATH=/home/parker/esp/esp-idf -DIDF_TARGET=esp32 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python -DEXTRA_COMPONENT_DIRS=/home/parker/esp/esp-idf/components/bootloader -DLEGACY_INCLUDE_COMMON_HEADERS= "-GUnix Makefiles" /home/parker/esp/esp-idf/components/bootloader/subproject
 	cd /home/parker/esp/hfp_ag/build/bootloader && /usr/bin/cmake -E touch /home/parker/esp/hfp_ag/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure
 
 bootloader-prefix/src/bootloader-stamp/bootloader-build: bootloader-prefix/src/bootloader-stamp/bootloader-configure

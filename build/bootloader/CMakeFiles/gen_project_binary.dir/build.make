@@ -58,7 +58,7 @@ CMakeFiles/gen_project_binary: .bin_timestamp
 
 .bin_timestamp: bootloader.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/usr/bin/python /home/parker/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB -o /home/parker/esp/hfp_ag/build/bootloader/bootloader.bin /home/parker/esp/hfp_ag/build/bootloader/bootloader.elf
+	/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB -o /home/parker/esp/hfp_ag/build/bootloader/bootloader.bin /home/parker/esp/hfp_ag/build/bootloader/bootloader.elf
 	/usr/bin/cmake -E echo "Generated /home/parker/esp/hfp_ag/build/bootloader/bootloader.bin"
 	/usr/bin/cmake -E md5sum /home/parker/esp/hfp_ag/build/bootloader/bootloader.bin > /home/parker/esp/hfp_ag/build/bootloader/.bin_timestamp
 

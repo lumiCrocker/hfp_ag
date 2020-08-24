@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/parker/esp/hfp_ag/build
 include CMakeFiles/confserver.dir/progress.make
 
 CMakeFiles/confserver:
-	/usr/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file /home/parker/esp/hfp_ag/build/config.env
-	/usr/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/confserver.py --env-file /home/parker/esp/hfp_ag/build/config.env --kconfig /home/parker/esp/esp-idf/Kconfig --sdkconfig-rename /home/parker/esp/esp-idf/sdkconfig.rename --config /home/parker/esp/hfp_ag/sdkconfig
+	/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file /home/parker/esp/hfp_ag/build/config.env
+	/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/confserver.py --env-file /home/parker/esp/hfp_ag/build/config.env --kconfig /home/parker/esp/esp-idf/Kconfig --sdkconfig-rename /home/parker/esp/esp-idf/sdkconfig.rename --config /home/parker/esp/hfp_ag/sdkconfig
 
 confserver: CMakeFiles/confserver
 confserver: CMakeFiles/confserver.dir/build.make

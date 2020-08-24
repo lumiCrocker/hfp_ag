@@ -35,35 +35,35 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_18452/fast && make[3]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_18452.dir/build.make CMakeFiles/cmTC_18452.dir/build
-make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_18452.dir/testCCompiler.c.obj
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_18452.dir/testCCompiler.c.obj   -c /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_18452
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18452.dir/link.txt --verbose=1
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_18452.dir/testCCompiler.c.obj  -o cmTC_18452 
+Run Build Command(s):/usr/bin/make cmTC_58fe8/fast && make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_58fe8.dir/build.make CMakeFiles/cmTC_58fe8.dir/build
+make[5]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58fe8.dir/testCCompiler.c.obj
+/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_58fe8.dir/testCCompiler.c.obj   -c /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_58fe8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58fe8.dir/link.txt --verbose=1
+/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_58fe8.dir/testCCompiler.c.obj  -o cmTC_58fe8 
+make[5]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
 make[4]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_fd0de/fast && make[3]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_fd0de.dir/build.make CMakeFiles/cmTC_fd0de.dir/build
-make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make cmTC_25a4e/fast && make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_25a4e.dir/build.make CMakeFiles/cmTC_25a4e.dir/build
+make[5]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj
+/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
 Target: xtensa-esp32-elf
 Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
 Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2020r2) 
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj' '-c'
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/cc1 -quiet -v -iprefix /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj -Wno-frame-address -version -o /tmp/ccDCQ3w8.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj' '-c'
+ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/cc1 -quiet -v -iprefix /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj -Wno-frame-address -version -o /tmp/ccbX56Rj.s
 GNU C17 (crosstool-NG esp-2020r2) version 8.2.0 (xtensa-esp32-elf)
 	compiled by GNU C version 4.9.2, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -84,14 +84,14 @@ GNU C17 (crosstool-NG esp-2020r2) version 8.2.0 (xtensa-esp32-elf)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 8ab27345cc86458a99b6beae553b9a98
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj' '-c'
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj /tmp/ccDCQ3w8.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj' '-c'
+ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj /tmp/ccbX56Rj.s
 COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj' '-c'
-Linking C executable cmTC_fd0de
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd0de.dir/link.txt --verbose=1
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj  -o cmTC_fd0de 
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj' '-c'
+Linking C executable cmTC_25a4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25a4e.dir/link.txt --verbose=1
+/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj  -o cmTC_25a4e 
 Using built-in specs.
 COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
 COLLECT_LTO_WRAPPER=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper
@@ -101,11 +101,11 @@ Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2020r2) 
 COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_fd0de'
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNDPGwI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_fd0de /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_fd0de'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_25a4e'
+ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE680HM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_25a4e /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_25a4e'
+make[5]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
 make[4]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
 
 
 
@@ -128,19 +128,19 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_fd0de/fast && make[3]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fd0de.dir/build.make CMakeFiles/cmTC_fd0de.dir/build]
-  ignore line: [make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_25a4e/fast && make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_25a4e.dir/build.make CMakeFiles/cmTC_25a4e.dir/build]
+  ignore line: [make[5]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
   ignore line: [Target: xtensa-esp32-elf]
   ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.2.0 (crosstool-NG esp-2020r2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/cc1 -quiet -v -iprefix /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj -Wno-frame-address -version -o /tmp/ccDCQ3w8.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/cc1 -quiet -v -iprefix /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj -Wno-frame-address -version -o /tmp/ccbX56Rj.s]
   ignore line: [GNU C17 (crosstool-NG esp-2020r2) version 8.2.0 (xtensa-esp32-elf)]
   ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
   ignore line: []
@@ -161,14 +161,14 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 8ab27345cc86458a99b6beae553b9a98]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj /tmp/ccDCQ3w8.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj /tmp/ccbX56Rj.s]
   ignore line: [COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [Linking C executable cmTC_fd0de]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd0de.dir/link.txt --verbose=1]
-  ignore line: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj  -o cmTC_fd0de ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C executable cmTC_25a4e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25a4e.dir/link.txt --verbose=1]
+  ignore line: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj  -o cmTC_25a4e ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper]
@@ -178,243 +178,27 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.0 (crosstool-NG esp-2020r2) ]
   ignore line: [COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_fd0de']
-  link line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNDPGwI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_fd0de /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_25a4e']
+  link line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE680HM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_25a4e /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
     arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccNDPGwI.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccE680HM.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fd0de] ==> ignore
+    arg [cmTC_25a4e] ==> ignore
     arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
     arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o] ==> ignore
     arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o] ==> ignore
     arg [-L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
     arg [-L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_fd0de.dir/CMakeCCompilerABI.c.obj] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lc] ==> lib [c]
-    arg [-lnosys] ==> lib [nosys]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc] ==> lib [gcc]
-    arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o] ==> ignore
-    arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o] ==> ignore
-  collapse library dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0]
-  collapse library dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc]
-  collapse library dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
-  implicit libs: [gcc;c;nosys;c;gcc]
-  implicit dirs: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0;/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc;/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
-  implicit fwks: []
-
-
-The target system is: Generic -  - 
-The host system is: Linux - 5.4.0-42-generic - x86_64
-Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc 
-Build flags: -mlongcalls;-Wno-frame-address
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
-
-The C compiler identification is GNU, found in "/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/3.16.3/CompilerIdC/a.out"
-
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ 
-Build flags: -mlongcalls;-Wno-frame-address
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-
-The CXX compiler identification is GNU, found in "/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
-
-Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
-xtensa-esp32-elf-gcc (crosstool-NG esp-2020r2) 8.2.0
-Copyright (C) 2018 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-Determining if the C compiler works passed with the following output:
-Change Dir: /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_de2fd/fast && make[3]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_de2fd.dir/build.make CMakeFiles/cmTC_de2fd.dir/build
-make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_de2fd.dir/testCCompiler.c.obj
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_de2fd.dir/testCCompiler.c.obj   -c /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_de2fd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de2fd.dir/link.txt --verbose=1
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_de2fd.dir/testCCompiler.c.obj  -o cmTC_de2fd 
-make[4]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-
-
-
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_a1755/fast && make[3]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_a1755.dir/build.make CMakeFiles/cmTC_a1755.dir/build
-make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
-Using built-in specs.
-COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
-Target: xtensa-esp32-elf
-Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
-Thread model: posix
-gcc version 8.2.0 (crosstool-NG esp-2020r2) 
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj' '-c'
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/cc1 -quiet -v -iprefix /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj -Wno-frame-address -version -o /tmp/cc9Y2Zlj.s
-GNU C17 (crosstool-NG esp-2020r2) version 8.2.0 (xtensa-esp32-elf)
-	compiled by GNU C version 4.9.2, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/8.2.0/include"
-ignoring duplicate directory "/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/8.2.0/include-fixed"
-ignoring duplicate directory "/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/sys-include"
-ignoring duplicate directory "/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/include"
-#include "..." search starts here:
-#include <...> search starts here:
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/include
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/include-fixed
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/sys-include
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/include
-End of search list.
-GNU C17 (crosstool-NG esp-2020r2) version 8.2.0 (xtensa-esp32-elf)
-	compiled by GNU C version 4.9.2, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 8ab27345cc86458a99b6beae553b9a98
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj' '-c'
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj /tmp/cc9Y2Zlj.s
-COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
-LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj' '-c'
-Linking C executable cmTC_a1755
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1755.dir/link.txt --verbose=1
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj  -o cmTC_a1755 
-Using built-in specs.
-COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
-COLLECT_LTO_WRAPPER=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper
-Target: xtensa-esp32-elf
-Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
-Thread model: posix
-gcc version 8.2.0 (crosstool-NG esp-2020r2) 
-COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
-LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_a1755'
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciBJXfQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_a1755 /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_a1755'
-make[4]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-
-
-
-Parsed C implicit include dir info from above output: rv=done
-  found start of include info
-  found start of implicit include info
-    add: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/include]
-    add: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/include-fixed]
-    add: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/sys-include]
-    add: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/include]
-  end of search list found
-  collapse include dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/include] ==> [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0/include]
-  collapse include dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/include-fixed] ==> [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0/include-fixed]
-  collapse include dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/sys-include] ==> [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include]
-  collapse include dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/include] ==> [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/include]
-  implicit include dirs: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0/include;/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0/include-fixed;/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/sys-include;/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/include]
-
-
-Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_a1755/fast && make[3]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a1755.dir/build.make CMakeFiles/cmTC_a1755.dir/build]
-  ignore line: [make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
-  ignore line: [Target: xtensa-esp32-elf]
-  ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.2.0 (crosstool-NG esp-2020r2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/cc1 -quiet -v -iprefix /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj -Wno-frame-address -version -o /tmp/cc9Y2Zlj.s]
-  ignore line: [GNU C17 (crosstool-NG esp-2020r2) version 8.2.0 (xtensa-esp32-elf)]
-  ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
-  ignore line: []
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/8.2.0/include"]
-  ignore line: [ignoring duplicate directory "/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/8.2.0/include-fixed"]
-  ignore line: [ignoring duplicate directory "/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/sys-include"]
-  ignore line: [ignoring duplicate directory "/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/include"]
-  ignore line: [#include "..." search starts here:]
-  ignore line: [#include <...> search starts here:]
-  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/include]
-  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/include-fixed]
-  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/sys-include]
-  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/include]
-  ignore line: [End of search list.]
-  ignore line: [GNU C17 (crosstool-NG esp-2020r2) version 8.2.0 (xtensa-esp32-elf)]
-  ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
-  ignore line: []
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 8ab27345cc86458a99b6beae553b9a98]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj /tmp/cc9Y2Zlj.s]
-  ignore line: [COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
-  ignore line: [LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [Linking C executable cmTC_a1755]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1755.dir/link.txt --verbose=1]
-  ignore line: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj  -o cmTC_a1755 ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc]
-  ignore line: [COLLECT_LTO_WRAPPER=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper]
-  ignore line: [Target: xtensa-esp32-elf]
-  ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.2.0 (crosstool-NG esp-2020r2) ]
-  ignore line: [COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
-  ignore line: [LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_a1755']
-  link line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cciBJXfQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_a1755 /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
-    arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cciBJXfQ.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_a1755] ==> ignore
-    arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
-    arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o] ==> ignore
-    arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o] ==> ignore
-    arg [-L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
-    arg [-L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
-    arg [-L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_a1755.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_25a4e.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
     arg [-lnosys] ==> lib [nosys]
@@ -433,35 +217,35 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_38027/fast && make[3]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_38027.dir/build.make CMakeFiles/cmTC_38027.dir/build
-make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_38027.dir/testCXXCompiler.cxx.obj
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_38027.dir/testCXXCompiler.cxx.obj -c /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_38027
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38027.dir/link.txt --verbose=1
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_38027.dir/testCXXCompiler.cxx.obj  -o cmTC_38027 
+Run Build Command(s):/usr/bin/make cmTC_844e5/fast && make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_844e5.dir/build.make CMakeFiles/cmTC_844e5.dir/build
+make[5]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_844e5.dir/testCXXCompiler.cxx.obj
+/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -o CMakeFiles/cmTC_844e5.dir/testCXXCompiler.cxx.obj -c /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_844e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_844e5.dir/link.txt --verbose=1
+/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address     CMakeFiles/cmTC_844e5.dir/testCXXCompiler.cxx.obj  -o cmTC_844e5 
+make[5]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
 make[4]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_22792/fast && make[3]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_22792.dir/build.make CMakeFiles/cmTC_22792.dir/build
-make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make cmTC_a7129/fast && make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a7129.dir/build.make CMakeFiles/cmTC_a7129.dir/build
+make[5]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj
+/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
 Target: xtensa-esp32-elf
 Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
 Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2020r2) 
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/cc1plus -quiet -v -iprefix /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlongcalls -auxbase-strip CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj -Wno-frame-address -version -o /tmp/cc9bJVzl.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/cc1plus -quiet -v -iprefix /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlongcalls -auxbase-strip CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj -Wno-frame-address -version -o /tmp/ccAoaPM8.s
 GNU C++14 (crosstool-NG esp-2020r2) version 8.2.0 (xtensa-esp32-elf)
 	compiled by GNU C version 4.9.2, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -488,14 +272,14 @@ GNU C++14 (crosstool-NG esp-2020r2) version 8.2.0 (xtensa-esp32-elf)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 8eb8dcab0681d8f7e80218fe90960f16
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc9bJVzl.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccAoaPM8.s
 COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
-Linking CXX executable cmTC_22792
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22792.dir/link.txt --verbose=1
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_22792 
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX executable cmTC_a7129
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7129.dir/link.txt --verbose=1
+/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_a7129 
 Using built-in specs.
 COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
 COLLECT_LTO_WRAPPER=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper
@@ -505,11 +289,11 @@ Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2020r2) 
 COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_22792'
- /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAgaq7N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_22792 /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_22792'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_a7129'
+ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchf3eZH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_a7129 /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_a7129'
+make[5]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
 make[4]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
-make[3]: Leaving directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp'
 
 
 
@@ -538,19 +322,19 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_22792/fast && make[3]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_22792.dir/build.make CMakeFiles/cmTC_22792.dir/build]
-  ignore line: [make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_a7129/fast && make[4]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a7129.dir/build.make CMakeFiles/cmTC_a7129.dir/build]
+  ignore line: [make[5]: Entering directory '/home/parker/esp/hfp_ag/build/bootloader/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++    -mlongcalls -Wno-frame-address    -v -o CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++]
   ignore line: [Target: xtensa-esp32-elf]
   ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r2' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.2.0 (crosstool-NG esp-2020r2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/cc1plus -quiet -v -iprefix /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlongcalls -auxbase-strip CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj -Wno-frame-address -version -o /tmp/cc9bJVzl.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/cc1plus -quiet -v -iprefix /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlongcalls -auxbase-strip CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj -Wno-frame-address -version -o /tmp/ccAoaPM8.s]
   ignore line: [GNU C++14 (crosstool-NG esp-2020r2) version 8.2.0 (xtensa-esp32-elf)]
   ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
   ignore line: []
@@ -577,14 +361,14 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 8eb8dcab0681d8f7e80218fe90960f16]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc9bJVzl.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccAoaPM8.s]
   ignore line: [COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [Linking CXX executable cmTC_22792]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22792.dir/link.txt --verbose=1]
-  ignore line: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_22792 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX executable cmTC_a7129]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7129.dir/link.txt --verbose=1]
+  ignore line: [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  -mlongcalls -Wno-frame-address    -v CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_a7129 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper]
@@ -594,27 +378,27 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.0 (crosstool-NG esp-2020r2) ]
   ignore line: [COMPILER_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/:/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_22792']
-  link line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAgaq7N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_22792 /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_a7129']
+  link line: [ /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2 -plugin /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchf3eZH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_a7129 /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtend.o /home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtn.o]
     arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccAgaq7N.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cchf3eZH.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_22792] ==> ignore
+    arg [cmTC_a7129] ==> ignore
     arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
     arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crti.o] ==> ignore
     arg [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/crtbegin.o] ==> ignore
     arg [-L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
     arg [-L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-L/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_22792.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_a7129.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/parker/esp/hfp_ag/build
 include CMakeFiles/erase_flash.dir/progress.make
 
 CMakeFiles/erase_flash:
-	cd /home/parker/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH="/home/parker/esp/esp-idf" -D ESPTOOLPY="/usr/bin/python /home/parker/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D ESPTOOL_ARGS="erase_flash" -P run_esptool.cmake
+	cd /home/parker/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH="/home/parker/esp/esp-idf" -D ESPTOOLPY="/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D ESPTOOL_ARGS="erase_flash" -P run_esptool.cmake
 
 erase_flash: CMakeFiles/erase_flash
 erase_flash: CMakeFiles/erase_flash.dir/build.make

@@ -110,6 +110,10 @@ xtensa_perfmon_apis.h
 xtensa_perfmon_masks.h
 /home/parker/esp/esp-idf/components/perfmon/xtensa_perfmon_masks.h
 
+/home/parker/esp/esp-idf/components/perfmon/xtensa_perfmon_masks.c
+xtensa_perfmon_masks.h
+/home/parker/esp/esp-idf/components/perfmon/xtensa_perfmon_masks.h
+
 /home/parker/esp/esp-idf/components/soc/include/hal/cpu_hal.h
 stdint.h
 -

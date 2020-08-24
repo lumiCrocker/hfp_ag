@@ -56,7 +56,7 @@ include esp-idf/partition_table/CMakeFiles/partition_table.dir/progress.make
 esp-idf/partition_table/CMakeFiles/partition_table:
 	cd /home/parker/esp/hfp_ag/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Partition table binary generated. Contents:"
 	cd /home/parker/esp/hfp_ag/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
-	cd /home/parker/esp/hfp_ag/build/esp-idf/partition_table && /usr/bin/python /home/parker/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB /home/parker/esp/hfp_ag/build/partition_table/partition-table.bin
+	cd /home/parker/esp/hfp_ag/build/esp-idf/partition_table && /home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 2MB /home/parker/esp/hfp_ag/build/partition_table/partition-table.bin
 	cd /home/parker/esp/hfp_ag/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
 
 partition_table: esp-idf/partition_table/CMakeFiles/partition_table

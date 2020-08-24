@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/parker/esp/hfp_ag/build
 include esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/progress.make
 
 esp-idf/bootloader/CMakeFiles/bootloader-flash:
-	cd /home/parker/esp/esp-idf/components/bootloader && /usr/bin/cmake -D IDF_PATH="/home/parker/esp/esp-idf" -D ESPTOOLPY="/usr/bin/python /home/parker/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D ESPTOOL_ARGS="--before=default_reset --after=hard_reset write_flash @bootloader-flash_args" -D WORKING_DIRECTORY="/home/parker/esp/hfp_ag/build" -P /home/parker/esp/esp-idf/components/esptool_py/run_esptool.cmake
+	cd /home/parker/esp/esp-idf/components/bootloader && /usr/bin/cmake -D IDF_PATH="/home/parker/esp/esp-idf" -D ESPTOOLPY="/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D ESPTOOL_ARGS="--before=default_reset --after=hard_reset write_flash @bootloader-flash_args" -D WORKING_DIRECTORY="/home/parker/esp/hfp_ag/build" -P /home/parker/esp/esp-idf/components/esptool_py/run_esptool.cmake
 
 bootloader-flash: esp-idf/bootloader/CMakeFiles/bootloader-flash
 bootloader-flash: esp-idf/bootloader/CMakeFiles/bootloader-flash.dir/build.make

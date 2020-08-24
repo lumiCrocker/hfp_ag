@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/parker/esp/hfp_ag/build
 include CMakeFiles/size-files.dir/progress.make
 
 CMakeFiles/size-files: hfp_ag.elf
-	/usr/bin/python /home/parker/esp/esp-idf/tools/idf_size.py --target esp32 --files /home/parker/esp/hfp_ag/build/hfp_ag.map
+	/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/tools/idf_size.py --target esp32 --files /home/parker/esp/hfp_ag/build/hfp_ag.map
 
 size-files: CMakeFiles/size-files
 size-files: CMakeFiles/size-files.dir/build.make

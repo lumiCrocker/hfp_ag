@@ -58,7 +58,7 @@ CMakeFiles/gen_project_binary: .bin_timestamp
 
 .bin_timestamp: hfp_ag.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parker/esp/hfp_ag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/usr/bin/python /home/parker/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB --elf-sha256-offset 0xb0 -o /home/parker/esp/hfp_ag/build/hfp_ag.bin /home/parker/esp/hfp_ag/build/hfp_ag.elf
+	/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB --elf-sha256-offset 0xb0 -o /home/parker/esp/hfp_ag/build/hfp_ag.bin /home/parker/esp/hfp_ag/build/hfp_ag.elf
 	/usr/bin/cmake -E echo "Generated /home/parker/esp/hfp_ag/build/hfp_ag.bin"
 	/usr/bin/cmake -E md5sum /home/parker/esp/hfp_ag/build/hfp_ag.bin > /home/parker/esp/hfp_ag/build/.bin_timestamp
 

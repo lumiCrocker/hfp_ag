@@ -534,6 +534,8 @@ mbconfig.h
 mbutils.h
 /home/parker/esp/esp-idf/components/freemodbus/modbus/functions/mbutils.h
 
+/home/parker/esp/esp-idf/components/freemodbus/modbus/functions/mbfuncdiag.c
+
 /home/parker/esp/esp-idf/components/freemodbus/modbus/functions/mbfuncdisc.c
 stdlib.h
 /home/parker/esp/esp-idf/components/freemodbus/modbus/functions/stdlib.h

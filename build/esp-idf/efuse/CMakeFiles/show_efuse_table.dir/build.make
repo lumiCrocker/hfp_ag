@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/parker/esp/hfp_ag/build
 include esp-idf/efuse/CMakeFiles/show_efuse_table.dir/progress.make
 
 esp-idf/efuse/CMakeFiles/show_efuse_table:
-	cd /home/parker/esp/hfp_ag/build/esp-idf/efuse && /usr/bin/python /home/parker/esp/esp-idf/components/efuse/efuse_table_gen.py /home/parker/esp/esp-idf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192 --info
+	cd /home/parker/esp/hfp_ag/build/esp-idf/efuse && /home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/components/efuse/efuse_table_gen.py /home/parker/esp/esp-idf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192 --info
 
 show_efuse_table: esp-idf/efuse/CMakeFiles/show_efuse_table
 show_efuse_table: esp-idf/efuse/CMakeFiles/show_efuse_table.dir/build.make

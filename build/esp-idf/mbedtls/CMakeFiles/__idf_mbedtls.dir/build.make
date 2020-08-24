@@ -64,7 +64,7 @@ x509_crt_bundle.S: esp-idf/mbedtls/x509_crt_bundle
 
 esp-idf/mbedtls/x509_crt_bundle:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parker/esp/hfp_ag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating x509_crt_bundle"
-	cd /home/parker/esp/hfp_ag/build/esp-idf/mbedtls && /usr/bin/python /home/parker/esp/esp-idf/components/mbedtls/esp_crt_bundle/gen_crt_bundle.py --input /home/parker/esp/esp-idf/components/mbedtls/esp_crt_bundle/cacrt_all.pem -q
+	cd /home/parker/esp/hfp_ag/build/esp-idf/mbedtls && /home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/components/mbedtls/esp_crt_bundle/gen_crt_bundle.py --input /home/parker/esp/esp-idf/components/mbedtls/esp_crt_bundle/cacrt_all.pem -q
 
 esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/esp_crt_bundle/esp_crt_bundle.c.obj: esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/flags.make
 esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/esp_crt_bundle/esp_crt_bundle.c.obj: /home/parker/esp/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c

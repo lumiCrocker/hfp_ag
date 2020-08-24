@@ -230,6 +230,8 @@ soc/gpio_sig_map.h
 soc/rtc_io_periph.h
 /home/parker/esp/esp-idf/components/soc/soc/esp32/soc/rtc_io_periph.h
 
+/home/parker/esp/esp-idf/components/soc/soc/esp32/rtc_periph.c
+
 /home/parker/esp/esp-idf/components/soc/soc/esp32/sdio_slave_periph.c
 stdint.h
 -

@@ -54,11 +54,11 @@ CMAKE_BINARY_DIR = /home/parker/esp/hfp_ag/build
 include CMakeFiles/menuconfig.dir/progress.make
 
 CMakeFiles/menuconfig:
-	/usr/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file /home/parker/esp/hfp_ag/build/config.env
-	/usr/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/confgen.py --kconfig /home/parker/esp/esp-idf/Kconfig --sdkconfig-rename /home/parker/esp/esp-idf/sdkconfig.rename --config /home/parker/esp/hfp_ag/sdkconfig --defaults /home/parker/esp/hfp_ag/sdkconfig.defaults --env-file /home/parker/esp/hfp_ag/build/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --dont-write-deprecated --output config /home/parker/esp/hfp_ag/sdkconfig
-	/usr/bin/python /home/parker/esp/esp-idf/tools/check_term.py
-	/usr/bin/cmake -E env COMPONENT_KCONFIGS_SOURCE_FILE=/home/parker/esp/hfp_ag/build/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=/home/parker/esp/hfp_ag/build/kconfigs_projbuild.in IDF_CMAKE=y KCONFIG_CONFIG=/home/parker/esp/hfp_ag/sdkconfig IDF_TARGET=esp32 IDF_ENV_FPGA= /usr/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/menuconfig.py /home/parker/esp/esp-idf/Kconfig
-	/usr/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/confgen.py --kconfig /home/parker/esp/esp-idf/Kconfig --sdkconfig-rename /home/parker/esp/esp-idf/sdkconfig.rename --config /home/parker/esp/hfp_ag/sdkconfig --defaults /home/parker/esp/hfp_ag/sdkconfig.defaults --env-file /home/parker/esp/hfp_ag/build/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --output config /home/parker/esp/hfp_ag/sdkconfig
+	/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --env-file /home/parker/esp/hfp_ag/build/config.env
+	/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/confgen.py --kconfig /home/parker/esp/esp-idf/Kconfig --sdkconfig-rename /home/parker/esp/esp-idf/sdkconfig.rename --config /home/parker/esp/hfp_ag/sdkconfig --defaults /home/parker/esp/hfp_ag/sdkconfig.defaults --env-file /home/parker/esp/hfp_ag/build/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --dont-write-deprecated --output config /home/parker/esp/hfp_ag/sdkconfig
+	/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/tools/check_term.py
+	/usr/bin/cmake -E env COMPONENT_KCONFIGS_SOURCE_FILE=/home/parker/esp/hfp_ag/build/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=/home/parker/esp/hfp_ag/build/kconfigs_projbuild.in IDF_CMAKE=y KCONFIG_CONFIG=/home/parker/esp/hfp_ag/sdkconfig IDF_TARGET=esp32 IDF_ENV_FPGA= /home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/menuconfig.py /home/parker/esp/esp-idf/Kconfig
+	/home/parker/.espressif/python_env/idf4.3_py2.7_env/bin/python /home/parker/esp/esp-idf/tools/kconfig_new/confgen.py --kconfig /home/parker/esp/esp-idf/Kconfig --sdkconfig-rename /home/parker/esp/esp-idf/sdkconfig.rename --config /home/parker/esp/hfp_ag/sdkconfig --defaults /home/parker/esp/hfp_ag/sdkconfig.defaults --env-file /home/parker/esp/hfp_ag/build/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --output config /home/parker/esp/hfp_ag/sdkconfig
 
 menuconfig: CMakeFiles/menuconfig
 menuconfig: CMakeFiles/menuconfig.dir/build.make
