@@ -1,2 +1,0 @@
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libmain.a  CMakeFiles/__idf_main.dir/app_hf_msg_prs.c.obj CMakeFiles/__idf_main.dir/app_hf_msg_set.c.obj CMakeFiles/__idf_main.dir/bt_app_core.c.obj CMakeFiles/__idf_main.dir/bt_app_hf.c.obj CMakeFiles/__idf_main.dir/console_uart.c.obj CMakeFiles/__idf_main.dir/gpio_pcm_config.c.obj CMakeFiles/__idf_main.dir/main.c.obj
-/home/parker/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libmain.a

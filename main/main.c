@@ -26,6 +26,16 @@
 #include "gpio_pcm_config.h"
 #include "console_uart.h"
 
+
+// RF24 Radio Driver code
+// #define ARDUINO
+// #define ESP32
+// #define SPI_HAS_TRANSACTION
+// #include "RF24/RF24.h"
+
+
+
+
 #define BT_HF_AG_TAG            "HF_AG_DEMO_MAIN"
 
 /* event for handler "hf_ag_hdl_stack_up */

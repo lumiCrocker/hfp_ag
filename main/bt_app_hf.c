@@ -101,6 +101,8 @@ const char *c_codec_mode_str[] = {
     "Use MSBC",
 };
 
+
+
 #if CONFIG_BTDM_CTRL_BR_EDR_SCO_DATA_PATH_HCI
 // Produce a sine audio
 static const int16_t sine_int16[] = {

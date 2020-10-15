@@ -13,8 +13,12 @@
 #include "bt_app_hf.h"
 
 // if you want to connect a specific device, add it's bda here
-// esp_bd_addr_t hf_peer_addr = {0x70,0x26,0x05,0xca,0xeb,0x21};
-esp_bd_addr_t hf_peer_addr = {0x00,0x23,0x14,0x0B,0xA3,0x0F};
+// esp_bd_addr_t hf_peer_addr = {0x70,0x2x6,0x05,0xca,0xeb,0x21};
+// esp_bd_addr_t hf_peer_addr = {0x00,0x23,0x14,0x0B,0xA3,0x0F};   char * peer_dev_name = "JLab JBuds Air Sport";
+// esp_bd_addr_t hf_peer_addr = {0x34,0xDF,0x2A,0x44,0x2E,0xEA};   char * peer_dev_name = "JBL Everest";
+esp_bd_addr_t hf_peer_addr = {0x4F,0x73,0xD2,0x00,0xBC,0x9A};   char * peer_dev_name = "X11 #1";
+
+
 
 
 void hf_msg_show_usage(void)
@@ -59,13 +63,15 @@ HF_CMD_HANDLER(help)
 
 HF_CMD_HANDLER(conn)
 {
-    printf("Connect.\n");
+    printf("Connect to %s\n", peer_dev_name);
+    printf("Device Address: 0x%x:0x%x:0x%x:0x%x:0x%x:0x%x\n", hf_peer_addr[0], hf_peer_addr[1], hf_peer_addr[2], hf_peer_addr[3], hf_peer_addr[4], hf_peer_addr[5]);
+
     esp_bt_hf_connect(hf_peer_addr);
 }
 
 HF_CMD_HANDLER(disc)
 {
-    printf("Disconnect\n");
+    printf("Disconnect from %s\n", peer_dev_name);
     esp_bt_hf_disconnect(hf_peer_addr);
 }
 
